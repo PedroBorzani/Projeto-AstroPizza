@@ -1,0 +1,1661 @@
+@media (min-width: 320px) 
+{
+    /*----------------------------------- Formatação geral -------------------------------------*/
+    *
+    {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+    .hidden {
+        display: none;
+    }
+    body
+    {
+        background-color: #ffffff;
+    }
+    #geral
+    {
+        height: 2890px;
+        overflow: hidden;
+        margin:  0 auto;
+    }
+    #cadastro_geral
+    {
+        height: 900px;
+        overflow: hidden;
+        margin:  0 auto;
+    }
+    #cadastro_conteudo
+    {
+        position: relative;
+        width: 100%;
+        height: 1100px;
+        background-color: #ffffff;
+    }
+    #geral_login
+    {
+        height: 730px;
+        overflow: hidden;
+        margin:  0 auto;        
+        background-image: url(imagens/Fundo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #cupons_geral
+    {
+        height: 1700px;
+    }
+    #geral_cardapio
+    {
+        height: 3430px;
+        overflow: hidden;
+        margin:  0 auto;
+        background-color: white;
+    }
+    #conteudo_cardapio
+    {
+        position: relative;
+        width: 100%;
+        height: 2390px;
+    }
+    #conteudo
+    {
+        position: relative;
+        width: 100%;
+        height: 1400px;
+        background-color: #ffffff;
+    }
+    /*--------------------- Formatação geral Fim -------------------*/
+    /*------------------------------------------------------------------------------------------*/
+    /*----------------------- Topo do site ------------------------*/
+    #topo
+    {    
+        position: fixed;
+        width: 100%;
+        height: 110px;
+        background-color: white;
+        border-bottom:2px solid #8B5DFF;
+        z-index: 99;
+    }
+    .topo_conteudo_geral
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .topo_conteudo_geral h2
+    {
+        font-size: 30px;
+        font-weight: 800;
+        color: #563A9C;
+    }
+    .logo
+    {
+        width: 90px;
+        height: 90px;
+        padding-top: 10px;
+        border-radius: 100%;
+    }
+    .link_menu
+    {
+        display: none;
+    }
+    .login_topo
+    {
+        display: none;
+    }
+    .link_menu img
+    {
+        width: 15px;
+        height: 15px;
+        margin-right: 2px;
+    }
+    .link_menu li a
+    {
+        color: #563A9C;
+        font-weight: 900;
+        border-radius: 30px;
+        margin-right: 10px;
+        padding: 4px;
+    }
+    .link_top
+    {
+        color: #563A9C;
+        font-weight: 900;
+        padding: 7px;
+        border-radius: 30px;
+    }
+
+    /*----------------- Fim Topo do site ------------------*/
+    /*------------------------------------------------------------------------------------------*/
+    /*-------------- Inicio conteudo "INDEX --------------"*/
+    #criar_conta_ou_logar
+    {
+        display: flex;
+        align-items: center ;
+        margin-top: 120px;
+        width: 100%;
+    }
+    .criar_conta
+    {
+        background-color: #8B5DFF;
+        color: #ffffff;
+        width: 60%;
+        height: 80px;
+        padding:0px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .criar_conta button
+    {
+        margin: 0px 10px;
+        padding: 7px 20px;
+        border-radius: 20px;
+        background-color:#ffffff;
+        color: #8B5DFF;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+    }
+    .criar_conta a
+    {
+        color: black;
+    }
+    .entrar_na_conta
+    {
+        background-color: #563A9C;
+        color: #ffffff;
+        width: 50%;
+        height: 80px;
+        padding-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center ;
+    }
+    .entrar_na_conta button
+    {
+        background-color: #8B5DFF;
+        font-weight: 600;
+        color: #ffffff;
+        margin: 0px 20px;
+        padding: 7px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+    }
+    .banner_1
+    {
+        margin: 0px 10px;
+        margin-top: 20px;
+    }
+    .banner_1 img
+    {
+        width: 100%;
+        height: 170px;
+        border-radius: 10px;
+    }
+    .title_index_promocoes
+    {
+        margin: 0px 10px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .title_index_promocoes h2, .title_index_pizzas h2
+    {
+        color: #8B5DFF;
+    }
+    .title_index_promocoes a
+    {
+        padding-top: 5px;
+        color: #8B5DFF;
+        text-decoration: underline;
+    }
+    .promocoes
+    {
+        margin: 0px 30px;
+    }
+    .banners
+    {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    .bn_1
+    {
+        width: 100%;
+        height: 160px;
+        margin-bottom: 40px;
+    }
+    .bn_1 img
+    {
+        width: 100%;
+        height: 180px;
+        border-radius: 15px;
+    }
+    .bn_1 img:hover
+    {
+        border: 5px solid #8B5DFF;
+        transition: 0.3s;
+    }
+    .title_index_pizzas
+    {
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .index_pizzas
+    {
+        margin: 0px 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #conteudo_principal
+    {
+        background-color: white;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 260px;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .index_to_cardapio
+    {
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .index_to_cardapio a
+    {
+        background-color: #8B5DFF;
+        color:#FFF7D1;
+        border-radius: 35px;
+        padding: 20px 60px;
+        font-weight: 900;
+    }
+    .index_p1
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /*--------------------- Fim conteudo "INDEX --------------------"*/
+    /*--------------------------------------------------------------------------------------------------------------------*/
+    /*-------------------- Inicio conteudo "CARDÁPIO" ----------------*/
+    #pizza_icon_cardapio
+    {
+        margin-top: -60px;
+        margin-bottom: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    .general_cardapio
+    {
+        margin-top: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .caardapio
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    #conteudo_principal_cardapio
+    {
+        background-color: white;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 260px;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        border: 2px solid #8B5DFF;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .postagens
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .preco
+    {
+        margin:0px 20px;
+    }
+    .imagem
+    {
+        width: 180px;
+        height: 130px;
+        border-radius: 30%;
+        border: 2px solid #8B5DFF;
+    }
+    .imagem img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .test
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .titulos
+    {
+        font-family: calibri, sans-serif;
+        color: #8B5DFF;
+        font-size: 17px;
+        padding-top: 10px;
+    }
+    .preco
+    {
+        font-size: 14px;
+    }
+    .cardio_inputs
+    {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding-left: 50px;        
+    }
+    .cardio_inputs label
+    {
+        font-size: 20px;
+        color: #8B5DFF;
+    }
+    #cupom
+    {
+        margin-top: 10px;
+        border-radius: 20px;
+        padding: 7px 30px;
+        border: 2px solid #8B5DFF;
+    }
+    #submit
+    {
+        margin-top: 10px;
+        border: none;
+        padding: 15px 30px;
+        background-color: #8B5DFF;
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    /*----------------- Fim conteudo "CARDÁPIO" -----------------*/
+    /*-------------------------------------------------------------------------------------*/
+    /*------------------ Inicio Conteudo Login ------------------*/
+    #conteudo_login
+    {
+        height: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .login_geral
+    {
+        height: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        margin-top: 140px;
+    }
+    .formulario_login
+    {
+        border: 2px solid #8B5DFF;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+    }
+    .formulario_login h2, h3, h4
+    {
+        padding: 10px 0px;
+    }
+    .formulario_login input
+    {        
+        width: 100%;
+        height: 50px;
+        border-radius: 30px;
+        padding-left: 20px;
+        border: 2px solid #8B5DFF;
+    }
+    
+    .formulario_login form
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .formulario_login h2
+    {
+        color: #8B5DFF;
+    }
+    .formulario_login button
+    {
+        margin-top: 20px;
+        width: 250px;
+        height: 40px;
+        border: 2px solid #8B5DFF;
+        border-radius: 30px;
+        background-color: white;
+        color: #8B5DFF;
+        font-weight: 800;
+        cursor: pointer;
+    }
+    .formulario_login button:hover
+    {
+        transition: 0.4s;
+        border: none;
+        background-color: #8B5DFF;
+        color: #FFF7D1;
+    }
+    #login_btn_logar
+    {
+        margin-top: 20px;
+    }
+    /*------------------ Fim Conteudo Login ------------------*/
+    /*-------------------------------------------------------------------------------------*/
+    /*------------------ Inicio Conteudo Cadastro ------------------*/
+    .cadastro_geral
+    {
+        margin-top: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cadastro_geral img
+    {
+        display: none;
+    }
+    .cadastro_form
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 20px;
+    }
+    .cadastro_form h2
+    {
+        color: #563A9C;
+    }
+    .info_final_cadastro
+    {
+        margin-top: 20px;
+        padding: 0px 20px;
+        font-weight: 600;
+    }
+    .info_final_cadastro p 
+    {
+        padding: 5px;
+        border-radius: 30px;
+        width: 250px;
+    }
+    .info_final_cadastro a
+    {
+        color: #8B5DFF;
+    }
+    .cadastro_form input
+    {
+        width: 100%;
+        height: 40px;
+        padding-left: 15px;
+        border-radius: 25px;
+        border: 2px solid #8B5DFF;
+        margin-bottom: 20px;
+    }
+    .cadastro_geral button
+    {
+        margin-top: 20px;
+        width: 250px;
+        height: 40px;
+        border: 2px solid #8B5DFF;
+        border-radius: 30px;
+        background-color: #8B5DFF;
+        color: #FFF7D1;
+        font-weight: 800;
+        cursor: pointer;
+    }
+    /*------------------ Fim Conteudo Cadastro ------------------*/
+    /*-------------------------------------------------------------------------------------*/
+    /*------------------ Cupons Inicio -------------------*/
+    #conteudo_cupons
+    {
+        height: 1630px;
+    }
+    .cupons_geral
+    {
+        height: 3350px;
+    }
+    .cupons_conteudo
+    {
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+    .cupons_topo
+    {
+        background-color:white;
+        width: 100%;
+        height: 90px;
+        padding-left: 20px;
+        padding-top: 40px;        
+        border-bottom: 2px solid #8B5DFF;
+        position: fixed;
+        display: flex;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.4);        
+    }
+    .cupons_topo img
+    {
+        width: 15px;
+        height: 15px;
+        margin-right: 8px;
+        
+    }
+    .cupons_topo a
+    {
+        text-decoration: none;
+        color: #8B5DFF;
+    }
+    .cupon_itens
+    {
+        margin-top: 130px;
+        width: 100%;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 190px;
+    }
+    .cupon_1,.cupon_2,.cupon_3,.cupon_4,.cupon_5,.cupon_6,.cupon_7,.cupon_8
+    {
+        width: 100%;
+    }
+    .cupon_itens img
+    {
+        width: 100%;        
+        height: 130px;
+        border-radius: 10px;
+    }
+    /*------------------ Cupons fim --------------------*/
+    /*-----------------------------------------------------------------------------------------*/
+    /*------------------- Carrinho inicio -----------------------*/
+    .carrinho_geral
+    {
+        margin: 10px;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid #8B5DFF;
+        border-radius: 10px;       
+    }
+    .carrinho_geral h1
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .carrinho_geral a
+    {
+        background-color: #8B5DFF;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: 900;
+    }
+    .carrinho_geral a:hover
+    {
+        background-color: #563A9C;
+        transition: 0.4s;
+
+    }
+    .carrinho_geral p
+    {
+        text-align: center;
+    }
+    .dropdown
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .carrinho_formulario
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carrinho_geral input
+    {
+        font-weight: 900;
+        font-size: 15px;
+    }
+    /*-----------------------------------------------------------------------------------------*/
+    /*------------------------- Nota inicio ----------------------------*/
+    .nota_geral
+    {
+        margin: 20px;
+        border: 2px solid #8B5DFF;
+        padding: 10px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nota_geral a
+    {
+        background-color: #8B5DFF;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: 900;
+    }
+    .nota_geral a:hover
+    {
+        background-color: #563A9C;
+        font-weight: 900;
+    }
+    .nota_geral label
+    {
+        margin-bottom: 10px;
+    }
+    /*------------------------- Nota fim ----------------------------*/
+    /*-----------------------------------------------------------------------------------------*/
+    /*------------------- Carrinho fim -----------------------*/
+    /*-----------------------------------------------------------------------------------------*/
+    /*----------------- Inicio Rodape -----------------*/
+    #rodape
+    {
+        width: 100%;
+        height: 850px;
+        background-color: #563A9C;
+        color: white;
+    }
+    .rodape_principal
+    {
+        display: flex; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .rodape_principal a, h2
+    {
+        color: #ffffff;
+    }
+    .rodape_info_1
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .rodape_info_1 img
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .direitos
+    {
+    padding: 10px 20px;
+    }
+    .line
+    {
+        margin-top: 30px;
+        background-color: white;
+        height: 1px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .final_info_rodape
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+    .final_info_rodape img
+    {
+        width: 120px;
+        height: 95px;
+    }
+    .link_mais_icon
+    {
+        display: flex;
+        margin-top: 10px;
+    }
+    .link_mais_icon h4
+    {
+        padding: 0px 10px;
+    }
+    /*---------------- Nossa História inicio -----------------*/
+    .nossa_historia_geral
+    {
+        width: 100%;
+        height: 1870px;
+        background-color: #FFF7D1;
+    }
+    .historia_topo
+    {
+        background-color:white;
+        width: 100%;
+        height: 90px;
+        padding-left: 20px;
+        padding-top: 40px;        
+        border-bottom: 2px solid #8B5DFF;
+        position: fixed;
+        display: flex;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.4);        
+    }
+    .historia_topo img
+    {
+        width: 15px;
+        height: 15px;
+        margin-right: 8px;
+    }
+    .historia_topo a
+    {
+        text-decoration: none;
+        color: #8B5DFF;
+    }
+    .historia_info_geral
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 10px;      
+    }
+    .historia_foto_1 img
+    {
+        margin-top: 120px;
+        width: 130px;
+        height: 110px;
+    }
+    .historia_info_1, .historia_info_2, .historia_info_3 
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .historia_info_1
+    {
+        margin-top: 30px;
+    }
+    
+    .historia_info_1 img, .historia_info_2 img, .historia_info_3 img 
+    {
+        width: 190px;
+        height: 190px;
+        border-radius: 20px;
+    }
+    .sobre
+    {
+        background-color: white;
+        border: none;
+        box-shadow: 1px 3px 8px 1px rgba(0,0,0, 0.4);
+        width: 100%;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 50px
+    }
+    .sobre h2
+    {
+        color: #8B5DFF;
+        margin-bottom: 20px;
+    }
+    .sobre p
+    {
+        color: gray;
+    }
+    .sobre a
+    {
+        color: #8B5DFF;
+    }
+    /*----------------- Nossa História fim -----------------*/
+    /*------------------------------------------------------------------------------------------------------------------------*/
+    /*----------------- Politicas de privacidade inicio -----------------*/
+    .politica_privacidade_geral
+    {
+        width: 100%;
+        height: 2800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .politicas_privacidade_topo
+    {
+        background-color: #563A9C;
+        width: 100%;
+        height: 90px;
+        padding-left: 20px;
+        padding-top: 40px;        
+        position: fixed;
+        display: flex;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.4); 
+    }
+    .politicas_privacidade_topo a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .politicas_privacidade_topo img
+    {
+        width: 15px;
+        height: 15px;
+        margin-right: 8px;
+    }
+    .imagem_inicio
+    {
+        margin-bottom: -50px;
+    }
+    .imagem_inicio img
+    {
+        margin-top: 120px;
+        width: 120px;
+        height: 115px;
+    }
+    .privacidade_title h2, h3
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #8B5DFF;
+    }
+    .privacidade_atualizacao
+    {
+        margin: 20px 0px;
+    }
+    .privaciade_informativo_geral
+    {
+        width: 100%;
+        background-color: white;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.4); 
+        padding: 10px;
+        border-radius: 20px;
+        margin: 0px 30px;
+    }
+    .privaciade_informativo_geral p 
+    {
+        padding: 20px 0px;
+    }
+    .tabela_privacidade, th, td
+    {
+        border: 2px solid black;
+    }
+    .privacidade_5_elemento
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #privacidade_6_a
+    {
+        font-weight: 900;
+        font-size: 17px;
+    }
+    .privaciade_informativo_geral ul li
+    {
+        padding-bottom: 10px;
+    }
+    #privacidade_links_coockies
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #privacidade_links_coockies a
+    {
+        padding: 5px 30px;
+    }
+    /*----------------- Politicas de privacidade fim -----------------*/
+    /*------------------------------------------------------------------------------------------------------------------------*/
+    /*------------------- Adendo à Politicas de Privacidade Inicio ----------------------*/
+    .adendo_politicas_geral
+    {   
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .adendo_politicas_topo
+    {
+        background-color: #563A9C;
+        width: 100%;
+        height: 90px;
+        padding-left: 20px;
+        padding-top: 40px;        
+        position: fixed;
+        display: flex;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.4); 
+    }
+    .adendo_politicas_topo a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .adendo_politicas_topo img
+    {
+        width: 15px;
+        height: 15px;
+        margin-right: 8px;
+    }
+    #adendo_img img
+    {
+        margin-top: 120px;
+        width: 120px;
+        height: 115px;   
+    }
+    #adendo_politicas_info
+    {
+        margin-top: 20px;
+    }
+    #adendo_info_conteudo
+    {
+        margin-top: 20px;
+        
+    }
+    #adendo_info_conteudo p
+    {
+        padding-bottom: 10px;
+        padding: 20px 10px;
+    }
+    .adendo_politicas_geral span
+    {
+        font-size: 20px;
+        font-weight: 900;
+    }
+    #adendo_info_conteudo ul li
+    {
+        margin-bottom: 20px;
+        
+    }
+    #underscore
+    {
+        font-weight: 100;
+        text-decoration: underline;
+    }
+    /*-------------------- Adendo à Politicas de Privacidade Fim --------------------*/
+    /*------------------------------------------------------------------------------------------------------------------------*/
+    /*------------------- Politica Cookies anuncios inicio ----------------------------*/
+    .cookeis_anuncios_geral
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cookeis_anuncios_topo
+    {
+        background-color: #563A9C;
+        width: 100%;
+        height: 90px;
+        padding-left: 20px;
+        padding-top: 40px;        
+        position: fixed;
+        display: flex;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.4); 
+    }
+    .cookeis_anuncios_topo a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .cookeis_anuncios_topo img
+    {
+        width: 15px;
+        height: 15px;
+        margin-right: 8px;
+    }
+    #politica_cookies_first
+    {
+        width: 100%;
+        text-align: center;
+    }
+    #politica_cookies_first h2
+    {
+        color: #563A9C;
+    }
+    #politica_cookies_first p 
+    {
+        margin: 20px 0px;
+    }
+    #politica_cookie_info
+    {
+        width: 100%;
+        padding: 0px 20px;       
+        margin-bottom: 30px;
+    }
+    #politica_cookies_info h3
+    {
+        margin-top: 20px;
+    }
+    #politica_cookie_info ul li
+    {
+        margin-left: 20px;
+    }
+    #politica_cookie_info span
+    {
+        font-weight: 900;
+        font-size: 18px;
+    }
+    #politica_cookie_info h4
+    {
+        text-align: center;
+        font-size: 20px;
+        color: gray;
+    }
+    /*------------------- Politica Cookies anuncios fim ----------------------------*/
+    /*------------------------------------------------------------------------------------------------------------------------*/
+    /*---------------------- Termos de uso inicio ------------------------*/
+    .termos_uso_geral
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .termos_uso_topo
+    {
+        background-color: #563A9C;
+        width: 100%;
+        height: 90px;
+        padding-left: 20px;
+        padding-top: 40px;        
+        position: fixed;
+        display: flex;
+        box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.4);
+    }
+    .termos_uso_topo a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .termos_uso_topo img
+    {
+        width: 15px;
+        height: 15px;
+        margin-right: 8px;
+    }
+    .privacidade_title
+    {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .privacidade_title img
+    {
+        width: 150px;
+        height: 140px;
+    }
+    .termos_conteudo
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .termos_conteudo h2,h3
+    {
+        text-align: center;
+    }
+    .termos_conteudo p 
+    {
+        padding-bottom: 20px;
+    }
+    .termos_conteudo span
+    {
+        font-weight: 900;
+    }
+    .termos_conteudo li
+    {
+        padding-left: 40px;
+    }
+    /*---------------------- Termos de uso fim ------------------------*/
+/*--------------------------- Fim Rodape ---------------------------*/
+}
+
+@media (min-width: 385px) 
+{
+    .rodape_principal
+    {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+@media (min-width: 425px) 
+{
+    .bn_1
+    {        
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    #conteudo_principal
+    {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .banner_1
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .title_index_promocoes h2, .title_index_pizzas h2
+    {
+        margin-left: 20px;
+    }
+    .title_index_promocoes a
+    {
+        margin-right: 30px;
+    }
+}
+@media (min-width: 428px) 
+{
+    #geral
+    {
+        height: 2790px;
+    }
+    #geral_cardapio
+    {
+        height: 3320px;
+    }
+    .rodape_principal
+    {
+        margin-left: 0;
+        margin-right: 10;
+    }
+}
+@media (min-width: 530px)
+{
+    .bn_1
+    {        
+        margin-right: 70px;
+        margin-left: 70px;
+    }
+    #conteudo_principal
+    {
+        margin-right: 70px;
+        margin-left: 70px;
+    } 
+    .cupon_itens
+    {
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+}
+
+/*------- Menu Hamburguer inicio --------*/
+.menu_hamburguer 
+{
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) 
+{
+    .link_menu {
+        display: none;
+        flex-direction: column;
+        background-color: #f4f4f4;
+        position: absolute;
+        top: 60px; /* Ajuste com base na altura do topo */
+        right: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        z-index: 1000;
+    }
+
+    .menu_hamburguer 
+    {
+        display: block;
+    }
+
+    .link_menu.show 
+    {
+        display: flex;
+    }
+}
+/*------- Menu Hamburguer fim --------*/
+@media (min-width: 600px)
+{
+    .link_menu, .login_topo
+    {
+        display: flex;
+    }
+}
+@media(min-width: 601)
+{
+    .acesso
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 650px)
+{
+    .bn_1
+    {        
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+    #conteudo_principal
+    {        
+        margin-right: 110px;
+        margin-left: 110px;
+    }
+    .banner_1
+    {
+        height: 210px;
+        margin-right: 110px;
+        margin-left: 110px;
+    }
+    .banner_1 img
+    {
+        height: 100%;
+    }
+    .index_to_cardapio a
+    {
+        padding: 20px 140px;
+    }    
+    
+}
+@media (min-width: 653px)
+{
+    #geral
+    {
+        height: 2650px;
+    }
+}
+@media (min-width: 700px)
+{
+    .bn_1
+    {   
+        margin-left: 0;
+        margin-right: 0;
+        width: 270px;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    .index_p1
+    {
+        margin-left: 0;
+        margin-right: 0;
+        width: 270px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .index_pizzas
+    {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .promocoes
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #conteudo_principal
+    {
+        margin-left: 0;
+        margin-right: 0;
+        width: 270px;
+        flex-wrap: wrap;
+    }
+    #geral
+    {
+        height: 2250px;
+    }
+    .index_to_cardapio a
+    {
+        padding: 25px 150px;
+    }
+    .index_to_cardapio a
+    {
+        padding: 25px 180px;
+    }
+    .cupon_itens
+    {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .cupon_1,.cupon_2,.cupon_3,.cupon_4,.cupon_5,.cupon_6,.cupon_7,.cupon_8
+    {        
+        width: 280px;
+    }
+    #conteudo_cupons
+    {
+        height: 950px;
+    }
+    #cupons_geral
+    {
+        height: 1500px;
+    }
+   #rodape
+   {
+    height: 600px;
+   }
+}
+@media (min-width: 768px)
+{
+    .bn_1
+    {
+        width: 300px;
+    }
+    .index_p1
+    {
+        width: 300px;
+    }
+    #conteudo_principal
+    {
+        width: 100%;
+    }
+    #conteudo_principal_cardapio
+    {
+        width: 290px;
+    }
+    .general_cardapio
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #conteudo_cardapio
+    {
+        height: 1270px;
+    }
+    #geral_cardapio
+    {
+        height: 2000px;
+    }
+    .cupon_itens
+    {
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+}
+@media (min-width: 850px)
+{
+    .index_p1
+    {
+        width: 280px;
+    }
+    .bn_1
+    {
+        width: 290px;
+    }    
+    .cupon_itens
+    {
+        padding-right: 110px;
+        padding-left: 110px;
+    }
+}
+@media (min-width: 890px)
+{
+    
+    #conteudo_cupons
+    {
+        height: 900px;
+    }
+    #cupons_geral
+    {
+        height: 700px;
+    }
+}
+@media (min-width: 910px)
+{
+    #geral
+    {
+        height: 1760px;
+    }
+    .index_p1
+    {
+        width: 276px;
+    }
+    .acesso
+    {
+        display: flex;
+        margin-left: 90px;
+    }
+    .cupon_itens
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #conteudo_cupons
+    {
+        height: 780px;
+    }
+}
+@media (min-width: 970px)
+{
+    #conteudo_cardapio
+    {
+        height: 1050px;
+    }
+}
+@media (min-width: 1024px)
+{
+    #geral_login
+    {
+        height: 950px;
+    }
+    #geral
+    {
+        height: 1750px;
+    }
+    .banner_1
+    {
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+    .title_index_promocoes
+    {
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    .promocoes
+    {
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+    .index_pizzas
+    {
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+    .title_index_pizzas
+    {
+        margin-left: 130px;
+    }
+    .index_to_cardapio a
+    {
+        padding: 25px 390px;
+    }
+    #conteudo_cardapio
+    {
+        height: 1000px;
+    }
+    #geral_cardapio
+    {
+        height: 1670px;
+    }
+    .link_menu a:hover, .link_top:hover
+    {
+        background-color: #8B5DFF;
+        color: white;
+        padding: 7px;
+        transition: 0.4s;
+    }
+    .index_to_cardapio a:hover
+    {
+        background-color: #563A9C;
+        transition: 0.4s;
+    }
+    .info_final_cadastro p:hover
+    {
+        background-color: #8B5DFF;
+        color: white;
+        transition: 0.4s;
+    }
+    #submit:hover
+    {
+        background-color: #563A9C;
+        transition: 0.4s;
+    }
+    .login_geral
+    {
+        margin-top: 250px;
+    }
+    .formulario_login
+    {
+        width: 800px;
+    }
+}
+@media (min-width: 1260px)
+{
+    #conteudo_cardapio
+    {
+        height: 710px;
+    }
+    #geral_cardapio
+    {
+        height: 1430px;
+    }
+}
+@media (min-width:1300px)
+{
+    .acesso
+    {
+        margin-left: 120px;
+    }
+}
+@media (min-width: 1440px)
+{
+    #geral
+    {
+        height: 1900px;
+    }
+    .banner_1
+    {
+        margin-left: 210px;
+        margin-right: 210px;
+        height: 300px;
+    }
+    .promocoes
+    {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .bn_1
+    {
+        width: 380px;
+        height: 240px;
+    }
+    .bn_1 img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .index_pizzas
+    {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .index_p1
+    {
+        width: 380px;
+    }
+    #conteudo_principal
+    {
+        width: 100%;
+    }
+    .title_index_promocoes
+    {
+        margin: 0px 100px;
+        margin-top: 30px;
+    }
+    .title_index_pizzas
+    {
+        margin-left: 90px;
+    }
+    .index_to_cardapio a
+    {
+        padding: 25px 390px;
+    }
+    #conteudo_cardapio
+    {
+        height: 730px;
+    }
+    #geral_cardapio
+    {
+        height: 1440px;
+    }
+    .acesso
+    {
+        margin-left: 160px;
+    }
+    
+}
+/*-------------- Monitor utilizado ----------------*/
+@media (min-width: 1920px)
+{
+    .general_cardapio
+    {
+        margin: 0px 280px;
+        margin-top: 190px;
+    }
+    #rodape
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .login_geral
+    {
+        margin-top: 110px;
+        margin-left: 170px;
+        margin-right: 170px;
+    }
+    .login_geral img
+    {
+        display: block;
+        width: 700px;
+        height: 480px;
+        border-radius: 30px;
+    }
+    .index_to_cardapio a
+    {
+        padding: 25px 490px;
+    }
+    .acesso
+    {
+        margin-left: 400px;
+    }
+}
